@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T11:06:11 IST" name="Suite" finished-at="2024-11-19T11:10:34 IST" duration-ms="262927">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T11:06:11 IST" name="Test" finished-at="2024-11-19T11:10:34 IST" duration-ms="262927">
+      <class name="co.ohrm.testcases.dashboardPageTest">
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:07:52 IST" name="getSetup" finished-at="2024-11-19T11:08:03 IST" duration-ms="11683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateAdminClick()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:03 IST" name="validateAdminClick" finished-at="2024-11-19T11:08:03 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.ohrm.pages.DashboardPage.adminClick()" because "this.dp" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.ohrm.pages.DashboardPage.adminClick()" because "this.dp" is null
+at co.ohrm.testcases.dashboardPageTest.validateAdminClick(dashboardPageTest.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminClick -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:03 IST" name="closeSetup" finished-at="2024-11-19T11:08:05 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:05 IST" name="getSetup" finished-at="2024-11-19T11:08:17 IST" duration-ms="12093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateBuzzLatestPostsLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:17 IST" name="validateBuzzLatestPostsLabel" finished-at="2024-11-19T11:08:23 IST" duration-ms="6205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBuzzLatestPostsLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:23 IST" name="closeSetup" finished-at="2024-11-19T11:08:25 IST" duration-ms="1787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:25 IST" name="getSetup" finished-at="2024-11-19T11:08:37 IST" duration-ms="12248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateDashboardLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:37 IST" name="validateDashboardLabel" finished-at="2024-11-19T11:08:48 IST" duration-ms="10414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDashboardLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:48 IST" name="closeSetup" finished-at="2024-11-19T11:08:50 IST" duration-ms="1954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:08:50 IST" name="getSetup" finished-at="2024-11-19T11:09:02 IST" duration-ms="11981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateEmployeeDistributionbyLocationLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:02 IST" name="validateEmployeeDistributionbyLocationLabel" finished-at="2024-11-19T11:09:08 IST" duration-ms="5890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeDistributionbyLocationLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:08 IST" name="closeSetup" finished-at="2024-11-19T11:09:09 IST" duration-ms="1731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:09 IST" name="getSetup" finished-at="2024-11-19T11:09:22 IST" duration-ms="12382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateEmployeeDistributionbySubUnitLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:22 IST" name="validateEmployeeDistributionbySubUnitLabel" finished-at="2024-11-19T11:09:28 IST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeeDistributionbySubUnitLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:28 IST" name="closeSetup" finished-at="2024-11-19T11:09:29 IST" duration-ms="1753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:29 IST" name="getSetup" finished-at="2024-11-19T11:09:40 IST" duration-ms="10976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateEmployeesonLeaveTodayLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:40 IST" name="validateEmployeesonLeaveTodayLabel" finished-at="2024-11-19T11:09:47 IST" duration-ms="6559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmployeesonLeaveTodayLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:47 IST" name="closeSetup" finished-at="2024-11-19T11:09:49 IST" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:09:49 IST" name="getSetup" finished-at="2024-11-19T11:10:00 IST" duration-ms="11398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateMYActionLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:10:00 IST" name="validateMYActionLabel" finished-at="2024-11-19T11:10:08 IST" duration-ms="7874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMYActionLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:10:08 IST" name="closeSetup" finished-at="2024-11-19T11:10:10 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:10:10 IST" name="getSetup" finished-at="2024-11-19T11:10:24 IST" duration-ms="14256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateQuickLaunchLabel()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:10:24 IST" name="validateQuickLaunchLabel" finished-at="2024-11-19T11:10:32 IST" duration-ms="7752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateQuickLaunchLabel -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.dashboardPageTest@248e319b]" started-at="2024-11-19T11:10:32 IST" name="closeSetup" finished-at="2024-11-19T11:10:33 IST" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+      </class> <!-- co.ohrm.testcases.dashboardPageTest -->
+      <class name="co.ohrm.testcases.LoginPageTest">
+        <test-method is-config="true" signature="reportConfiguration()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:11 IST" name="reportConfiguration" finished-at="2024-11-19T11:06:12 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportConfiguration -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:12 IST" name="getSetup" finished-at="2024-11-19T11:06:27 IST" duration-ms="15372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="ValidateLoginTest()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:27 IST" name="ValidateLoginTest" finished-at="2024-11-19T11:06:33 IST" duration-ms="6139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginTest -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:33 IST" name="closeSetup" finished-at="2024-11-19T11:06:35 IST" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:35 IST" name="getSetup" finished-at="2024-11-19T11:06:47 IST" duration-ms="11784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="ValidateTitleTest()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:47 IST" name="ValidateTitleTest" finished-at="2024-11-19T11:06:47 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitleTest -->
+        <test-method is-config="true" signature="closeSetup()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:06:47 IST" name="closeSetup" finished-at="2024-11-19T11:06:48 IST" duration-ms="1687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetup -->
+        <test-method is-config="true" signature="publicReport()[pri:0, instance:co.ohrm.testcases.LoginPageTest@173ed316]" started-at="2024-11-19T11:10:33 IST" name="publicReport" finished-at="2024-11-19T11:10:34 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publicReport -->
+      </class> <!-- co.ohrm.testcases.LoginPageTest -->
+      <class name="co.ohrm.testcases.AdminPageTest">
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.AdminPageTest@2af004b]" started-at="2024-11-19T11:06:48 IST" name="getSetup" finished-at="2024-11-19T11:07:01 IST" duration-ms="12588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateAddUserClick()[pri:0, instance:co.ohrm.testcases.AdminPageTest@2af004b]" started-at="2024-11-19T11:07:01 IST" name="validateAddUserClick" finished-at="2024-11-19T11:07:31 IST" duration-ms="29625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddUserClick -->
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:co.ohrm.testcases.AdminPageTest@2af004b]" started-at="2024-11-19T11:07:31 IST" name="getSetup" finished-at="2024-11-19T11:07:43 IST" duration-ms="12478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="validateAdminLabel()[pri:0, instance:co.ohrm.testcases.AdminPageTest@2af004b]" started-at="2024-11-19T11:07:43 IST" name="validateAdminLabel" finished-at="2024-11-19T11:07:52 IST" duration-ms="8566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminLabel -->
+      </class> <!-- co.ohrm.testcases.AdminPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

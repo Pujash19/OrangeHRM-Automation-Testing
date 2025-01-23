@@ -1,7 +1,18 @@
 # OrangeHRM-Testing
 
-OrangeHRM is a dummy website generally used for testing purpose to learn the core concepts of Automation testing using Selenium.
+OrangeHRM is a website for creation of user/employee entry and related activities.
 
-1. This project has been created with Maven Dependencies and TestNG suits for testing purpose.
-2. Did a full fledge testing without hard-coded values and used core java concepts to build a relation between different projects.
-3. Added TestNG reports and screenshots utility too.
+This is a simple website which helps in the automation testing , enhancing to refresh aur core concepts of java and extract the functionalities of given website.
+Did the automation of whole step by step process which included-
+* Login into the account with user id and password.
+* Checking the dashboard functionality.
+* Creating and ensuring correct details of a user entry.
+* Checking for any duplicate user entry.
+
+
+Features:-
+Used Maven dependencies for the initial.
+used TestNG suits for testing.
+Generated the TestNG reports.
+Also included the utils to avoid any hard-coded values.
+Added the screenshot methods too.

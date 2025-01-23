@@ -11,8 +11,8 @@ Did the automation of whole step by step process which included-
 
 
 Features:-
-Used Maven dependencies for the initial.
-used TestNG suits for testing.
-Generated the TestNG reports.
-Also included the utils to avoid any hard-coded values.
-Added the screenshot methods too.
+1. Used Maven dependencies for the initial.
+2. Used TestNG suits for testing.
+3. Generated the TestNG reports.
+4. Also included the utils to avoid any hard-coded values.
+5. Added the screenshot methods too.
